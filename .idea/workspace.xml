@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc17431-7f23-40ec-afbc-aca100d3b488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NewAlbums.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orders.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JDBCChallenges/Challenge2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JDBCChallenges/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/PreparedStatement_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JDBC/MusicCallableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/MainQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/music/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/music/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JDBCChallenges/Challenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JDBCChallenges/Challenge2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/PreparedStatement_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/PreparedStatement_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +39,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/samuel.clarke-quy/Downloads/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.15503877&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/samuel.clarke-quy/Desktop/A36/JavaMasterclass-part_2/src/META-INF",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.13404828",
+    "project.structure.side.proportion": "0.15503877"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2\src\main\resources" />
+      <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2\src\META-INF" />
       <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.challenge2">
+  <component name="RunManager" selected="Application.MainQuery">
+    <configuration name="CallableStatements" type="Application" factoryName="Application">
+      <envs>
+        <env name="MYSQL_USER" value="devuser" />
+        <env name="MYSQL_PASS" value="ChelseaFC@2345" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBC.MusicCallableStatement" />
+      <module name="JavaMasterclass-part_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JPA" type="Application" factoryName="Application" nameIsGenerated="true">
+      <classpathModifications>
+        <entry path="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2\src\META-INF" />
+      </classpathModifications>
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JPA" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.WorkingWithDBs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBC.Main" />
       <module name="JavaMasterclass-part_2" />
@@ -73,6 +109,32 @@
       </envs>
       <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBCChallenges.Main" />
       <module name="JavaMasterclass-part_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.MainQuery" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.WorkingWithDBs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicCallableStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBC.MusicCallableStatement" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.WorkingWithDBs.JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,15 +189,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.JPA" />
       <item itemvalue="Application.PreparedStatements" />
       <item itemvalue="Application.challenge2" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.MusicDML" />
+      <item itemvalue="Application.CallableStatements" />
+      <item itemvalue="Application.MainQuery" />
+      <item itemvalue="Application.MusicCallableStatement" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.QueryMusic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainQuery" />
+        <item itemvalue="Application.MusicCallableStatement" />
         <item itemvalue="Application.QueryMusic" />
         <item itemvalue="Application.Main" />
       </list>
@@ -162,5 +230,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="jakarta.persistence.PersistenceException" package="jakarta.persistence" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
