@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc17431-7f23-40ec-afbc-aca100d3b488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/SongQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/music/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/client/SimpleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/MultiThreadedSimpleServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/JPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/MainQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/MainQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/music/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/music/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/music/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WorkingWithDBs/music/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +55,11 @@
       <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2\src\META-INF" />
       <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.JavaNetworkProgramming.server" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SongQuery">
+  <component name="RunManager" selected="Application.SimpleClient">
     <configuration name="CallableStatements" type="Application" factoryName="Application">
       <envs>
         <env name="MYSQL_USER" value="devuser" />
@@ -81,19 +80,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.WorkingWithDBs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBC.Main" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WorkingWithDBs.JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicCallableStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBC.MusicCallableStatement" />
+    <configuration name="MultiThreadedSimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.MultiThreadedSimpleServer" />
       <module name="JavaMasterclass-part_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WorkingWithDBs.JDBC.*" />
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,15 +146,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="MYSQL_PASS" value="ChelseaFC@2345" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBC.QueryMusic" />
+    <configuration name="SimpleClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.client.SimpleClient" />
       <module name="JavaMasterclass-part_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WorkingWithDBs.JDBC.*" />
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.SimpleServer" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,19 +203,19 @@
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.MusicDML" />
       <item itemvalue="Application.CallableStatements" />
+      <item itemvalue="Application.MultiThreadedSimpleServer" />
+      <item itemvalue="Application.SimpleServer" />
+      <item itemvalue="Application.SimpleClient" />
       <item itemvalue="Application.SongQuery" />
       <item itemvalue="Application.MainQuery" />
-      <item itemvalue="Application.MusicCallableStatement" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.QueryMusic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleClient" />
+        <item itemvalue="Application.MultiThreadedSimpleServer" />
+        <item itemvalue="Application.SimpleServer" />
         <item itemvalue="Application.SongQuery" />
         <item itemvalue="Application.MainQuery" />
-        <item itemvalue="Application.MusicCallableStatement" />
-        <item itemvalue="Application.QueryMusic" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
