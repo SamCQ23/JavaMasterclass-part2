@@ -16,12 +16,12 @@ public class JPA {
 
             var transaction = entityManager.getTransaction();
             transaction.begin();
-            Artist artist = entityManager.find(Artist.class, 202);
+            Artist artist = entityManager.find(Artist.class, 103);
 //            artist.setArtistName("Muddy Waters");
             System.out.println(artist);
-            artist.addAlbum("The Best of Muddy Waters");
+//            artist.addAlbum("The Best of Muddy Waters");
 //            artist.removeDuplicates();
-            System.out.println(artist);
+//            System.out.println(artist);
 //            entityManager.remove(artist);
 //            entityManager.persist(new Artist("Muddy Water"));
             transaction.commit();

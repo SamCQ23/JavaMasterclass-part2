@@ -52,7 +52,6 @@ public class Artist {
     }
 
     public void removeDuplicates() {
-        //ordered and unique by album name
         var set = new TreeSet<>(albums);
         albums.clear();
         albums.addAll(set);
