@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc17431-7f23-40ec-afbc-aca100d3b488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/client/SimpleClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/MultiThreadedSimpleServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServerChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/MultiThreadedSimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/MultiThreadedSimpleServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.MainQuery" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WorkingWithDBs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultiThreadedSimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.MultiThreadedSimpleServer" />
       <module name="JavaMasterclass-part_2" />
@@ -172,6 +158,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleServerChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.SimpleServerChannel" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SongQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.SongQuery" />
       <module name="JavaMasterclass-part_2" />
@@ -203,19 +202,19 @@
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.MusicDML" />
       <item itemvalue="Application.CallableStatements" />
+      <item itemvalue="Application.SimpleServerChannel" />
       <item itemvalue="Application.MultiThreadedSimpleServer" />
       <item itemvalue="Application.SimpleServer" />
       <item itemvalue="Application.SimpleClient" />
       <item itemvalue="Application.SongQuery" />
-      <item itemvalue="Application.MainQuery" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SimpleClient" />
+        <item itemvalue="Application.SimpleServerChannel" />
         <item itemvalue="Application.MultiThreadedSimpleServer" />
         <item itemvalue="Application.SimpleServer" />
         <item itemvalue="Application.SongQuery" />
-        <item itemvalue="Application.MainQuery" />
       </list>
     </recent_temporary>
   </component>
