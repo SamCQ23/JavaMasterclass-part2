@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc17431-7f23-40ec-afbc-aca100d3b488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServerChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AudioClip.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/JavaNIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/URIs/URIBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/URIs/WebContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/client/UDPAudioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/ChannelSelectorServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/DatagramChannelServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/UDPPacketServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/MultiThreadedSimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/MultiThreadedSimpleServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServerChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServerChannel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +59,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2" />
       <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2\src\main\resources" />
       <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2\src\META-INF" />
-      <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.JavaNetworkProgramming.HTTP" />
       <recent name="org.example.JavaNetworkProgramming.server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleClient">
+  <component name="RunManager" selected="Application.HttpExample">
     <configuration name="CallableStatements" type="Application" factoryName="Application">
       <envs>
         <env name="MYSQL_USER" value="devuser" />
@@ -66,6 +76,19 @@
       </envs>
       <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.JDBC.MusicCallableStatement" />
       <module name="JavaMasterclass-part_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.HTTP.HttpExample" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.HTTP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadedSimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.MultiThreadedSimpleServer" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MusicDML" type="Application" factoryName="Application">
       <envs>
         <env name="MYSQL_USER" value="devuser" />
@@ -132,8 +142,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.client.SimpleClient" />
+    <configuration name="SimpleHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.SimpleHttpServer" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDPAudioClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.client.UDPAudioClient" />
       <module name="JavaMasterclass-part_2" />
       <extension name="coverage">
         <pattern>
@@ -145,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.SimpleServer" />
+    <configuration name="URIBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.URIs.URIBasics" />
       <module name="JavaMasterclass-part_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.URIs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,25 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleServerChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.SimpleServerChannel" />
+    <configuration name="WebContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.URIs.WebContent" />
       <module name="JavaMasterclass-part_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SongQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithDBs.SongQuery" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WorkingWithDBs.*" />
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.URIs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +212,19 @@
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.MusicDML" />
       <item itemvalue="Application.CallableStatements" />
-      <item itemvalue="Application.SimpleServerChannel" />
-      <item itemvalue="Application.MultiThreadedSimpleServer" />
-      <item itemvalue="Application.SimpleServer" />
-      <item itemvalue="Application.SimpleClient" />
-      <item itemvalue="Application.SongQuery" />
+      <item itemvalue="Application.HttpExample" />
+      <item itemvalue="Application.SimpleHttpServer" />
+      <item itemvalue="Application.URIBasics" />
+      <item itemvalue="Application.WebContent" />
+      <item itemvalue="Application.UDPAudioClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleClient" />
-        <item itemvalue="Application.SimpleServerChannel" />
-        <item itemvalue="Application.MultiThreadedSimpleServer" />
-        <item itemvalue="Application.SimpleServer" />
-        <item itemvalue="Application.SongQuery" />
+        <item itemvalue="Application.HttpExample" />
+        <item itemvalue="Application.SimpleHttpServer" />
+        <item itemvalue="Application.WebContent" />
+        <item itemvalue="Application.URIBasics" />
+        <item itemvalue="Application.UDPAudioClient" />
       </list>
     </recent_temporary>
   </component>
