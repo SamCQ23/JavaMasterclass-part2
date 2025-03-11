@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc17431-7f23-40ec-afbc-aca100d3b488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AudioClip.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/JavaNIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/URIs/URIBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/URIs/WebContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/client/UDPAudioClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/ChannelSelectorServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/DatagramChannelServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/UDPPacketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/ASyncClientGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/ASyncHandlerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/ConcurrentRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpClientGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpClientPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExamplePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/handlers/JsonBodyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/handlers/ThreadSafeFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/OrderFulfilmentServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServerChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleServerChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleHttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +64,37 @@
       <recent name="C:\Users\samuel.clarke-quy\Desktop\A36\JavaMasterclass-part_2\src\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.JavaNetworkProgramming.HTTP" />
       <recent name="org.example.JavaNetworkProgramming.server" />
+      <recent name="org.example.JavaNetworkProgramming.HTTP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpExample">
+  <component name="RunManager" selected="Application.ConcurrentRequests">
+    <configuration name="ASyncClientGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.HTTP.ASyncClientGet" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.HTTP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ASyncHandlerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.HTTP.ASyncHandlerClient" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.HTTP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CallableStatements" type="Application" factoryName="Application">
       <envs>
         <env name="MYSQL_USER" value="devuser" />
@@ -80,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.HTTP.HttpExample" />
+    <configuration name="ConcurrentRequests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.HTTP.ConcurrentRequests" />
       <module name="JavaMasterclass-part_2" />
       <extension name="coverage">
         <pattern>
@@ -131,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderFulfilmentServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.OrderFulfilmentServer" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PreparedStatements" type="Application" factoryName="Application">
       <envs>
         <env name="MYSQL_USER" value="devuser" />
@@ -148,45 +187,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UDPAudioClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.client.UDPAudioClient" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URIBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.URIs.URIBasics" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.URIs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.URIs.WebContent" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.URIs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +212,19 @@
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.MusicDML" />
       <item itemvalue="Application.CallableStatements" />
-      <item itemvalue="Application.HttpExample" />
+      <item itemvalue="Application.ASyncClientGet" />
+      <item itemvalue="Application.ASyncHandlerClient" />
+      <item itemvalue="Application.ConcurrentRequests" />
+      <item itemvalue="Application.OrderFulfilmentServer" />
       <item itemvalue="Application.SimpleHttpServer" />
-      <item itemvalue="Application.URIBasics" />
-      <item itemvalue="Application.WebContent" />
-      <item itemvalue="Application.UDPAudioClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpExample" />
+        <item itemvalue="Application.ConcurrentRequests" />
+        <item itemvalue="Application.OrderFulfilmentServer" />
+        <item itemvalue="Application.ASyncHandlerClient" />
         <item itemvalue="Application.SimpleHttpServer" />
-        <item itemvalue="Application.WebContent" />
-        <item itemvalue="Application.URIBasics" />
-        <item itemvalue="Application.UDPAudioClient" />
+        <item itemvalue="Application.ASyncClientGet" />
       </list>
     </recent_temporary>
   </component>
