@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc17431-7f23-40ec-afbc-aca100d3b488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/ASyncClientGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/ASyncHandlerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/ConcurrentRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpClientGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpClientPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExamplePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/handlers/JsonBodyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/handlers/ThreadSafeFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/OrderFulfilmentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/Websocket/SimpleWebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/Websocket/WebSocketClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/HTTP/HttpExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaNetworkProgramming/server/SimpleHttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,20 +59,7 @@
       <recent name="org.example.JavaNetworkProgramming.HTTP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentRequests">
-    <configuration name="ASyncClientGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.HTTP.ASyncClientGet" />
-      <module name="JavaMasterclass-part_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.HTTP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WebSocketClient">
     <configuration name="ASyncHandlerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.HTTP.ASyncHandlerClient" />
       <module name="JavaMasterclass-part_2" />
@@ -181,12 +159,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.server.SimpleHttpServer" />
+    <configuration name="SimpleWebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.Websocket.SimpleWebSocketServer" />
       <module name="JavaMasterclass-part_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.JavaNetworkProgramming.server.*" />
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.Websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebSocketClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JavaNetworkProgramming.Websocket.WebSocketClient" />
+      <module name="JavaMasterclass-part_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.JavaNetworkProgramming.Websocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +203,19 @@
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.MusicDML" />
       <item itemvalue="Application.CallableStatements" />
-      <item itemvalue="Application.ASyncClientGet" />
+      <item itemvalue="Application.SimpleWebSocketServer" />
+      <item itemvalue="Application.WebSocketClient" />
       <item itemvalue="Application.ASyncHandlerClient" />
       <item itemvalue="Application.ConcurrentRequests" />
       <item itemvalue="Application.OrderFulfilmentServer" />
-      <item itemvalue="Application.SimpleHttpServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebSocketClient" />
+        <item itemvalue="Application.SimpleWebSocketServer" />
         <item itemvalue="Application.ConcurrentRequests" />
         <item itemvalue="Application.OrderFulfilmentServer" />
         <item itemvalue="Application.ASyncHandlerClient" />
-        <item itemvalue="Application.SimpleHttpServer" />
-        <item itemvalue="Application.ASyncClientGet" />
       </list>
     </recent_temporary>
   </component>
